@@ -39,4 +39,4 @@ visit http://18.191.169.56.xip.io/ to browse the deployed app.
 
 ## SSH Access data
 
-To access the server, point your ssh client to ***ec2-18-191-169-56.us-east-2.compute.amazonaws.com*** on **port *2200***. The ssh key for the grader user will be provided with the submission in the "Notes for Reviewer" section. 
+To access the server, point your ssh client to ***ec2-18-191-169-56.us-east-2.compute.amazonaws.com*** on **port *2200***. The ssh key for the grader user will be provided with the submission. 
