@@ -29,9 +29,7 @@ After setting up a lightsail server instance with a barebone ubuntu server insta
 
 11. the final step to make the app working was to register the dns of the server with google to make it recognize the app and make oauth working.
 
-12. the "grader" user was added to the system. the directive to give the grader user sudo was placed into the /etc/sudoers.d/ folder (see 90-cloud-init-users file) 
-
-13. ssh keys were generated and the public key was placed into the .ssh directory inside the home directory of the grader user. 
+12. the "grader" user was added to the system. the directive to give the grader user sudo was placed into the /etc/sudoers.d/ folder (see 90-cloud-init-users file). ssh keys were generated and the public key was placed into the .ssh directory inside the home directory of the grader user. root login is disabled by default in ubuntu. 
 
 
 ## Project URL 
