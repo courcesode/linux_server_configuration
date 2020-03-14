@@ -9,7 +9,7 @@ After setting up a lightsail server instance with a barebone ubuntu server insta
 
 1. Through the webinterface, the aws firewall settings were modified to allow incomming connections on port 22, 80 and 123/udp.
 
-2. After logging in to the server through ssh, the ssh port was changed. this was done by editing the sshd_config file located in /etc/ssh. The Port was changed from its default value (22) to 2200. 
+2. After signing in to the server through ssh, the ssh port was changed. this was done by editing the sshd_config file located in /etc/ssh. The Port was changed from its default value (22) to 2200. 
 
 3. the ssh port in the aws firewall settings was changed. 
 
